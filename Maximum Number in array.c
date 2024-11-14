@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-int num[10],n,i,max;
-printf("How many number?");
+int num[100],n,i,max;
+printf("How many number? : ");
 scanf("%d",&n);
-printf("Enter %d number elements",n);
+printf("Enter %d number elements : ",n);
 for(i=0;i<n;i++)
 {
     scanf("%d",&num[i]);
