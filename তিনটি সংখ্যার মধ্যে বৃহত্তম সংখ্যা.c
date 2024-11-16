@@ -6,15 +6,15 @@ int main()
     scanf("%d %d %d",&a,&b,&c);
     if((a>b)&&(a>c))
     {
-    printf(" The largest number is :%d",a);
+    printf("%d is the largest number.",a);
     }
     else if((b>c)&&(b>a))
     {
-    printf(" The largest number is :%d",b);
+    printf("%d is the largest number.",b);
     }
     else
     {
-    printf(" The largest number is :%d",c);
+    printf("%d is the largest number.",c);
     }
     
    
