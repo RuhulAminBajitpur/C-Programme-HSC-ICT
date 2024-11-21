@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int num1,num2,n1,n2,rem,gcd,lcm;
+    int num1,num2,n1,n2,rem,gcd,lcm; //rem=reminder=ভাগশেষ 
     printf("Enter two numbers:");
     scanf("%d %d",&num1,&num2);
     
